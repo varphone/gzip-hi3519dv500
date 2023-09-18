@@ -173,7 +173,7 @@ typedef int file_t;     /* Do not use stdio */
 #define ASCII   1
 
 #ifndef WSIZE
-#  define WSIZE 0x8000     /* window size--must be a power of two, and */
+#  define WSIZE 0x2000     /* window size--must be a power of two, and */
 #endif                     /*  at least 32K for zip's deflate method */
 
 #define MIN_MATCH  3

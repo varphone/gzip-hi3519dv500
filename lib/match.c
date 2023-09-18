@@ -68,7 +68,7 @@
 #define MAX_MATCH	258
 #define MAX_MATCH2	$128 /* MAX_MATCH/2-1 */
 #define MIN_MATCH	3
-#define    WSIZE	$32768
+#define    WSIZE	$8192
 #define MAX_DIST	WSIZE - MAX_MATCH - MIN_MATCH - 1
 
         .globl	_match_init
